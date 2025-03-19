@@ -9,7 +9,7 @@ public class Addition
 {
     public static int Add(int a, int b)
     {
-        return a + b;
+        return 0;
     }
 }
 
@@ -18,6 +18,7 @@ public class Substraction
 {
     public static int Substract(int a, int b)
     {
+<<<<<<< HEAD
         return 0;
     }
 }
@@ -39,5 +40,8 @@ public class Division
     public static double Divide(int a, int b)
     {
         return (double)a / b;
+=======
+        return a - b;
+>>>>>>> parent of 8de9b17 (cambios incorrecto)
     }
 }
